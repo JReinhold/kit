@@ -1,5 +1,15 @@
 # @sveltejs/kit
 
+## 3.1.0
+
+### Minor Changes
+
+- feat: emit a `sveltekit.endpoint` span for `+server` handlers when server tracing is enabled ([#17325](https://github.com/sveltejs/kit/pull/17325))
+
+### Patch Changes
+
+- fix: leave generated files alone when their contents are unchanged ([#17310](https://github.com/sveltejs/kit/pull/17310))
+
 ## 3.0.1
 
 ### Patch Changes
