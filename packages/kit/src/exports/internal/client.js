@@ -3,3 +3,4 @@ export function get_origin() {
 }
 
 export * from './shared.js';
+export { reset_remote_state, set_remote_env } from './remote-env.js';
